@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+body{
+    position: absolute;
+    max-width: 1550px;
+    line-height: 1.73em;
+    font-family: 'Roboto', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(0, 0, 26);
+    max-width: 1540px;
+    overflow-x: hidden;  
+    z-index: 10;
+    
+
+}
+
+
+
+ul{
+    list-style: none;
+    
+}
+
+
+.container{
+    max-width: 800px; 
+    padding: 0px 20px;
+      overflow: auto;
+  margin: auto;
+   
+}
+ul li a:hover{
+    background-color: coral;
+    color: #fff;
+    transition: 1100ms ease;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+ul li a:hover,.current{
+    background-color: rgb(255, 127, 80);
+    color: #fff;
+     border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+    
+}
+.ab_img{
+    background:linear-gradient(rgba(31, 16, 240, 0.9), rgba(2, 81, 92, 0.9)) ;
+    width: 31%;
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    /* display: block; */
+    margin-left: 50px;
+    /* z-index: 9; */
+
+    
+}
+.ab{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+.ab2{
+    width: 50%;
+   padding-top: 30px;
+
+}
+span{
+    color: coral;
+}
+.ab p{
+    padding: 15px;
+    text-align: left;
+    padding-left: 100px;
+    line-height: 1.5rem;
+    margin-bottom: 60px;
+}
+.ab h1{
+    font-size: 40px;
+}
+.abo1{
+    display: flex;
+    height: 65vh;
+    /* flex-direction: row; */
+    
+    /* padding: 100px; */
+    flex-wrap: wrap;
+    
+    background:linear-gradient(rgba(31, 16, 240, 0.5), rgba(12, 221, 248, 0.6));
+    /* background :linear-gradient( rgba(173, 216, 230,1), rgba(255, 0, 0,0.3)   ) ; */
+}
+.ab3{
+    height: 80vh;
+}
+.room_img{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;    
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.img_1{
+    background-image: linear-gradient( rgba(0, 0, 255,0.3) , rgba(173, 216, 230,0.7) ), url(./pic\ 7\ room.jpg);
+    background-position: center center ;
+    background-size: cover;
+    height: 80vh;
+    width: 33.3%;
+    
+}
+.img_2{
+    background-image:linear-gradient( rgba(0, 0, 255,0.3) , rgba(173, 216, 230,0.9) ), url(./pic\ 8\ room.jpg);
+    background-position: center center ;
+    background-size: cover;
+    height: 80vh;
+    width: 33.3%;
+}
+.img_3{
+    background-image:linear-gradient( rgba(0, 0, 255,0.3) , rgba(173, 216, 230,0.7) ), url(./pic\ 9\ room.jpg) ;
+    height: 80vh;
+    background-position: center center ;
+    background-size: cover;
+    width: 33.3%;
+}
+.ab_room{
+    z-index: 4;
+    margin-top: -25rem;
+    text-align: center;
+}
+.ab_room h2{
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+}
+.ab_room p {
+     max-width: 55rem;
+     margin: auto;
+     text-align: center;
+     color: #fff;
+     margin-bottom: 3rem;
+}
+.btn{
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: lightblue;
+    background-color: coral;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 2px 5px 6px 4px rgba(0,0,0,0.2);
+    
+}
+.ab_room a:hover{
+    background-color: lightblue;
+    color: coral;
+    transition: 0.4s ease-in;
+}
+
+.btn1{
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: lightblue;
+    background-color: coral;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 2px 5px 6px 4px rgba(0,0,0,0.2);
+    
+}
+
+
+.ab a:hover{
+    background-color: lightblue;
+    color: coral;
+    transition: 0.4s ease-in;
+}
+
+.sponcer{
+  height: 70vh;
+  clip-path: polygon(0 0, 100% 0%, 100% 71%, 0% 100%);
+  
+  background: linear-gradient(rgba(80, 229, 240, 0.5) ,rgba(0, 0, 255,0.6)    ) ;
+ 
+  
+}
+.cnt_lg h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    /* z-index: 5; */
+
+}
+.flex_logo {
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+    
+}
+.fa-khanda {
+    color: blue;
+}
+.fa-hands-helping{
+    color: rgba(29, 143, 143, 0.9);
+}
+.fa-aws{
+    color: #260a53;
+}
+.fa-apple{
+    color: darkslategrey;
+}
+.fa-amazon-pay{
+
+}
+.fa-cc-visa{
+    color: blue;
+}
+.fa-ebay{
+    color:#89c507;
+}
+.mid_ab{
+    height: 80vh;
+    
+    
+}
+.boy{
+    background-image: url(./boy\ pic.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+    width: 400px;
+    float: right;
+    margin-top: -220px;
+    margin-bottom: 0px;
+    
+}
+.cnt_boy{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    text-align: center;
+
+     background-color: rgba(0, 139, 139,0.3);
+     height: 400px;
+     width: 800px;
+     margin-left: 300px;
+}
+
+.cnt_boy h3 {
+    font-size: 40px;
+    padding-top: 50px;
+}
+.cnt_boy p{
+    line-height: 1.5rem;
+    padding-top: 50px;
+
+}
+.food_gal{
+    display: flex;
+    height: 70vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+}
+.fimg{
+    height: 200px;
+    width: 100px;
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+.img1{
+    background-image: url(./food\ 1.jpg) ;
+}
+.img2{
+    background-image: url(./food\ 2.jpg);
+}
+.img3{
+   background-image: url(./food\ 3.jpg);
+}
+
+.img4{
+    background-image: url(./food\ 4.jpg);
+}
+.img5{
+    background-image: url(./food\ 5.jpg);
+}
+.img6{
+    background-image: url(./food\ 1.jpg);
+}
+.img7{
+    background-image: url(./food\ 7.jpg);
+}
+.img8{
+    background-image: url(./food\ 8.jpg);
+}
+.img9{
+    background-image: url(./food\ 9.jpg);
+}
+.img10{
+    background-image: url(./food\ 10.jpg);
+}
+.img11{
+    background-image: url(./fod\ 11.jpg);
+}
+.food_cnt{
+    text-align: center;
+    margin-top: 10px;
+}
+.food h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.food h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ceo{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+.our_ceo h1 { 
+    font-size: 40px;
+    margin: 50px;
+    color: coral;   
+}
+
+.our_ceo h3{
+    text-align: center;
+    line-height: 2rem;
+    border-bottom: dotted #333;
+    
+}
+.clr{
+    clear: both;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 0;
+    
+}
